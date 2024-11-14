@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> 
+    
+    <!-- Settings for Viewing on iPhone  -->
+  	<!--<meta name = "viewport" content = "width = 320">--> 
+	<!--<meta name = "viewport" content = "initial-scale = 0.4, user-scalable = no"> -->
+    
+    <title>Disney Institute - Flowchart</title>
+     
+    <link href="icon.png" rel="apple-touch-icon" /> 
+	<link rel="stylesheet" href="jq/jquery.mobile-1.1.0.min.css" />
+    <link rel="stylesheet" href="styles/disney.css" />
+	<script src="jq/jquery-1.7.1.min.js"></script>
+	<script src="jq/jquery.mobile-1.1.0.min.js"></script>
+    <script src="scripts/disney.js"></script>
+    <script src="/phonegap.js" type="text/javascript"></script>
+    
+</head> 
+
+	
+<body"> 
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="one" style="background-image:url(images/page1.jpg); background-repeat:no-repeat; height:768px">
+	
+     <!--<div id="row8"><a href="#nine" data-transition="slide">area 9</a></div>
+     <div id="row5"><a href="#six" data-transition="none">area 6</a></div>-->
+ 
+     <div id="row4" onClick="slideScreen(1);"></div>
+     <div id="row3" onClick="slideScreen(2);"></div>
+     <div id="row2" onClick="slideScreen(4);"></div>
+  	 <div id="row1" onClick="slideScreen(3);"></div>
+	
+
+   
+</div><!-- /page one -->
+
+<!-- Start of second page: #two -->
+<div data-role="page" id="two" style="background-image:url(images/page2.jpg); background-repeat:no-repeat; height:1024px">
+	<div id="row5" onClick="slideScreen(9);"></div>
+</div><!--</div> /page two -->
+
+<!-- Start of 3 -->
+<div data-role="page" id="three" style="background-image:url(images/page3.jpg); background-repeat:no-repeat; height:1024px">
+	<div id="row5" onClick="slideScreen(8);"></div> 
+</div><!--</div> /page 3-->
+
+<!-- Start of 4 -->
+<div data-role="page" id="four" style="background-image:url(images/page4.jpg); background-repeat:no-repeat; height:1024px">	
+    <div id="row5" onClick="slideScreen(5);"></div> 
+</div><!--</div> /page 4 -->
+
+<!-- Start of 5 -->
+<div data-role="page" id="five" style="background-image:url(images/page5.jpg); background-repeat:no-repeat; height:1024px">
+	 <div id="row5" onClick="slideScreen(6);"></div> 
+</div><!--</div> /page 5 -->
+
+<!-- Start of 6 -->
+<div data-role="page" id="six" style="background-image:url(images/page6.jpg); background-repeat:no-repeat; height:1024px">
+ 	<div id="row5" onClick="slideScreen(7);"></div>  
+</div><!--</div> /page 6 -->
+
+
+    
+</body>
+</html>

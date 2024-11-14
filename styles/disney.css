@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* Marriott Mobile */
+
+.ui-page {
+background:#f9f9f9;
+}
+
+#contentBox {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	top: 158px;
+	width: 1024px;
+	height: 483px;
+	z-index:99;
+	color:#000000;
+	background-color:#cac8c9;
+}
+
+#contentBox2 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	top: 131px;
+	width: 72%;
+	height: 76px;
+	z-index:99;
+	color:#000000;
+}
+
+#contentBox3 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:706px;
+	margin-left:-41%;
+	top: 17px;
+	width: 276px;
+	height: 482px;
+	z-index:99;
+	color:#000000;
+}
+
+#contentBox4 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:803px;
+	top: 12px;
+	width: 276px;
+	height: 482px;
+	z-index:99;
+	color:#000000;
+}
+
+#instructionsBox {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:108px;
+	top: 83px;
+	width: 871px;
+	height: 75px;
+	z-index:99;
+	color:#000000;
+}
+
+#contentBox51 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:748px;
+	margin-left:-41%;
+	top: 575px;
+	width: 276px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+#row1 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:395px;
+	top: 191px;
+	width: 247px;
+	height: 108px;
+	z-index:99;
+	color:#000000;
+}
+
+#row2 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:184px;
+	top: 340px;
+	width: 174px;
+	height: 140px;
+	z-index:99;
+	color:#000000;
+}
+
+#row3 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:664px;
+	top: 339px;
+	width: 178px;
+	height: 143px;
+	z-index:99;
+	color:#000000;
+}
+
+#row4 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:390px;
+	top: 546px;
+	width: 254px;
+	height: 123px;
+	z-index:99;
+	color:#000000;
+}
+
+#discoverBtn {
+	width: 276px;
+	height: 34px;
+}
+
+#row5 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:0px;
+	top: 0px;
+	width: 1024px;
+	height: 768px;
+	z-index:99;
+	color:#000000;
+}
+
+#row6 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:485px;
+	top: 414px;
+	width: 276px;
+	height: 94px;
+	z-index:99;
+	color:#000000;
+}
+
+#row7 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:412px;
+	top: 612px;
+	width: 276px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+#row8 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:431px;
+	top: 778px;
+	width: 276px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+
+#row9 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:945px;
+	top: 929px;
+	width: 128px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+#between1 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:642px;
+	margin-left:-41%;
+	top: 750px;
+	width: 123px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+#between2 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:641px;
+	margin-left:-41%;
+	top: 545px;
+	width: 125px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+
+#between3 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:636px;
+	margin-left:-41%;
+	top: 329px;
+	width: 133px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+
+#between4 {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:637px;
+	margin-left:-41%;
+	top: 156px;
+	width: 136px;
+	height: 34px;
+	z-index:99;
+	color:#000000;
+}
+
+
+#div {
+	overflow-x: none;
+	overflow-y: auto;
+}
+
+a img { border: none; }
+
+.ui-page { 
+	/*background: #cac8c9;*/
+	background: #f9f9f9;
+}
+
+.ui-mobile-viewport > div
+  {
+    display: none; 
+  }
+  
+.ui-mobile-viewport > div.ui-page-active
+  {
+    display: block;
+  }
+  
+/*.ui-content {
+    min-height: 2000px;
+  } */ 
+
+#bg_image {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index:-1;
+}
